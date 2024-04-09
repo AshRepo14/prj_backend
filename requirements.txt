@@ -20,6 +20,7 @@ decorator==5.0.7
 defusedxml==0.7.1
 Django==4.2.4
 django-cors-headers==4.3.1
+django-extensions==3.2.3
 django-jazzmin==2.6.1
 djangorestframework==3.15.1
 djangorestframework-simplejwt==5.3.1
@@ -67,7 +68,7 @@ nest-asyncio==1.5.8
 nltk==3.8.1
 notebook==6.5.5
 notebook_shim==0.2.3
-numpy==1.25.2
+
 overrides==7.4.0
 packaging==23.1
 pandas==2.0.3
@@ -79,7 +80,7 @@ platformdirs==3.8.0
 prometheus-client==0.17.1
 prompt-toolkit==3.0.18
 protobuf==3.20.3
-psycopg2==2.9.9
+
 pycparser==2.21
 Pygments==2.8.1
 PyJWT==2.8.0
@@ -87,8 +88,8 @@ pyparsing==2.4.7
 python-dateutil==2.8.2
 python-json-logger==2.0.7
 pytz==2021.1
-pywin32==300
-pywinpty==2.0.12
+
+
 PyYAML==6.0.1
 pyzmq==24.0.1
 qtconsole==5.4.4

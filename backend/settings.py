@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     #3rd party apps 
     'rest_framework',
     'corsheaders',
+    'django_extensions',
 ]
 
 # Simple JWT 
