@@ -10,7 +10,6 @@ RUN pip install gunicorn
 # testing
 RUN ls -lah
 RUN pwd
-RUN tree -L 2
 RUN ls -la $(pwd)
 
 WORKDIR /app
@@ -22,7 +21,6 @@ COPY . /app
 
 RUN pwd
 RUN ls -lah $(pwd)
-RUN tree -L 2
 
 RUN pip install -r requirements.txt
 
