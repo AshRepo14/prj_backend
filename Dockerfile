@@ -7,16 +7,26 @@ ENV PYTHONUNBUFFERED 1
 RUN pip install --upgrade pip
 RUN pip install numpy
 RUN pip install gunicorn
-
+# testing
 RUN ls .
 RUN ls -la
 RUN pwd
 RUN ls -la $(pwd)
+
 WORKDIR /app
+# testing
+RUN pwd
+RUN ls -la $(pwd)
+
 COPY . /app
+
+RUN pwd
 RUN ls -la $(pwd)
 
 RUN pip install -r requirements.txt
+
+RUN pwd
+RUN ls -la $(pwd)
 
 COPY ./entrypoint.sh .
 ENTRYPOINT [ "sh","/app/entrypoint.sh" ]
