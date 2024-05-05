@@ -8,8 +8,13 @@ RUN pip install --upgrade pip
 RUN pip install numpy
 RUN pip install gunicorn
 
+RUN ls .
+RUN ls -la
+RUN pwd
+RUN ls -la $(pwd)
 WORKDIR /app
 COPY . /app
+RUN ls -la $(pwd)
 
 RUN pip install -r requirements.txt
 
